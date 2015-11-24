@@ -1,0 +1,14 @@
+.tool-tip {
+	color: #fff;
+	width: 139px;
+	z-index: 100;
+}
+ 
+.tool-title,.tool-text {
+    padding:4px; 
+	font-size: 14px;
+	color: #fff;
+	background: url(/img/bubble.png) top left;
+}
+ 
+.tool-text { background: url(/img/bubble.png) bottom right; font-size:11px; padding-top:0; }

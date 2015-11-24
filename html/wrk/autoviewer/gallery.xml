@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gallery frameColor="0xFFFFFF" frameWidth="0" imagePadding="0" displayTime="6" enableRightClickOpen="true">
+<image>
+	<url>img/image-01.jpg</url>
+	<caption>testing captions</caption>
+	<width>747</width>
+	<height>408</height>
+</image>
+<image>
+	<url>img/image-02.jpg</url>
+	<caption>testing captions</caption>
+	<width>747</width>
+	<height>408</height>
+</image>
+<image>
+	<url>img/image-03.jpg</url>
+	<caption>testing captions</caption>
+	<width>747</width>
+	<height>408</height>
+</image>
+<image>
+	<url>img/image-04.jpg</url>
+	<caption>testing captions</caption>
+	<width>747</width>
+	<height>408</height>
+</image>
+</gallery>

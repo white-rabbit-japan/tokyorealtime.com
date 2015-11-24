@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<head>
+    <title>Nivo Slider Demo</title>
+    <link rel="stylesheet" href="css/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/themes/pascal/pascal.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/themes/orman/orman.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/slideshow.css" type="text/css" media="screen" />
+</head>
+<body style="margin:0; padding:0;">
+    <div id="wrapper">
+    
+        <div class="slider-wrapper theme-default">
+            <div class="ribbon"></div>
+            <div id="slider" class="nivoSlider">
+                <img src="img/Nikitaichibangai.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/blurb_kelt.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/98.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/5.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/blurb_playboy.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/55.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/10.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/blurb_guardian.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/30.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/60.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/blurb_jnto.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/40.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/50.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/blurb_jsnow.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/15.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/blurb_kalter.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/20.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/99.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/akiba_black.jpg" alt="" data-transition="slideInLeft" />			
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+		animSpeed: 200, // Slide transition speed
+		pauseTime: 4800, // How long each slide will show
+		controlNav: false, // 1,2,3... navigation
+		});
+    });
+    </script>
+</body>
+</html>

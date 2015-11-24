@@ -1,0 +1,149 @@
+/* 	tokyo realtime
+	---------
+	2008 Clixel Design & Coding
+	Nate Beaty
+	nate@clixel.com 
+	*/
+
+body {
+	font-family: "Myriad Pro", helvetica, arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.3em;
+	margin:0; 
+	padding:0; 
+	background:#000;
+	color:#efefef;
+}
+img { border:0; }
+a { text-decoration:none; color:#fe379c; }
+a:hover { text-decoration:underline; color:#fff; }
+a.simple { border:0; padding:0; text-decoration:none !important; }
+a.simple:hover { background:none !important; text-decoration:none !important; }
+
+/* Remove Firefox dotted lines on clicked links */
+a:focus { -moz-outline: none -moz-mac-focusring; }
+a:active { outline: none; }
+
+p,h2,h3,h4 { margin:0 0 1em 0; font-weight:normal; }
+ul { 
+	list-style-type:none; 
+	list-style-image:url(/img/bullet.gif); 
+	margin:0 0 0 1em;
+	padding:0;
+	}
+h4 { font-size:14px; }
+ul.nospace { list-style-image:none; margin:0; }
+.nospace { margin:0; padding:0; }
+.col1,.col2 {
+    width:47%;
+    float:left;
+    padding:0;
+    margin:10px 5% 0 0;
+}
+.col2 { margin-right:0; }
+
+/* then, add these to just change the .tour-info divs */
+
+.tour-info .col1 { width: 250px; margin-right: 15px;} .tour-info .col2 { width: 300px; }
+
+.col2 { margin-right:0; }
+h2 { padding:0; margin:0; }
+.pad { padding:9px; }
+
+.col2 h4 { margin-left:6px; }
+
+.guidigo_btn {float:right;}
+
+#wrapper { width:765px; margin:0 auto; }
+h1#logo,h2#slogan {
+    margin:0;
+    padding:0;
+    width: 470px;
+    height: 58px;
+    background:#000 url(/img/logo.gif) top left no-repeat;
+    text-indent: -1000em;
+    float:left;
+}
+form { margin:0; padding:0; }
+
+h2#kabukicho { background:url(/img/kabukicho-title.gif) top left no-repeat; width:170px; height:35px; text-indent:-1000em; }
+h2#harajuku { background:url(/img/harajuku-title.gif) top left no-repeat; width:170px; height:35px; text-indent:-1000em; }
+h2#akihabara { background:url(/img/akihabara-title.gif) top left no-repeat; width:170px; height:35px; text-indent:-1000em; }
+h2#more { background:url(/img/more-title.gif) top left no-repeat; width:170px; height:35px; text-indent:-1000em; }
+
+#slideshow { width:747px; height:408px; }
+.intro { font-size:15px; line-height:1.3em; padding:9px; background:#191919; clear:both; }
+
+a.buy-now { display:block; background:url(/img/buy-now-gray.gif) top left no-repeat; width:155px; height:40px; overflow:hidden; text-indent:-1000em; margin-top:6px; float:left; }
+.interview-role { color:#888; }
+
+.spacer { clear:both; height:0; line-height:0; font-size:0; }
+ul.quotes { margin:0; padding:0; list-style:none; }
+ul.quotes li { list-style:none; margin-bottom:10px; }
+ul.quotes .author { color:#888; }
+
+#header { margin-top:20px; }
+input.yremail { width:140px; color:#ccc; }
+input.yremail:focus { color:#000; }
+/*.mailing-list { width:220px; float:left; padding:0; margin:0; }
+input.yremail { background:#ec008c; color:#000; width:140px; float:left; padding-left:4px; margin:0 2px 0 0; height: 14px; border:0; }
+a.submit { width:72px; height:16px; background:url(/img/submit.gif) top left no-repeat; text-indent:-1000em; display:block; float:left; }
+.wrp-blog { margin-left:138px; }
+
+#header .mailing-list { height: 35px; margin-bottom:8px;}
+#header input { margin-top:11px; }*/
+img#white-rabbit-press { display:block; float:right; }
+
+.tour-info { padding-left:195px; }
+.audio-tour { position:relative; margin:30px 0 0 0; min-height:260px; }
+.audio-tour .thumb { float:left; }
+.price1 { display:block; width:100px; height:32px; background:url(/img/3-99.png) top left no-repeat; text-indent:-1000em; margin:10px 20px 0 0; float:left; }
+.price { display:block; width:120px; height:32px; background:url(/img/from5-dollars.jpg) top left no-repeat; text-indent:-1000em; margin:10px 20px 0 0; float:left; }
+.tour-info .col1 { width:250px; }
+
+h3.more { margin-bottom:10px;  }
+h3.more a { display:block; width:100%; height:40px; background:url(/img/preview-anim.gif) 0 15px no-repeat; text-indent:-1000em; clear:left; overflow:hidden; }
+h3.more a.active { text-decoration:none; background-position:0 -45px; }
+h3.coming-soon { width:100px; height:14px; background:url(/img/coming-soon.gif) top left no-repeat; text-indent:-1000em; }
+h2.more-lg { width:110px; height:34px; background:url(/img/more-lg.gif) center left no-repeat; text-indent:-1000em; }
+h3.audio-preview { width:150px; height:15px; background:url(/img/audio-preview.gif) top left no-repeat; text-indent:-1000em; overflow:hidden; margin-bottom:8px; }
+
+.more-info { background:#131313; margin-top:20px; }
+.thumbs { margin-bottom:10px; }
+.thumbs a { margin-right:3px; }
+.thumbs a.tail { margin:right:0; }
+.bottom-mailer h3,
+.more-info h3 { color:#888; margin:0 0 8px 0; line-height:1em; }
+.more-info h3 em { font-weight:normal; font-size:.8em; color:#666; font-style: normal;}
+
+.bottom-mailer p { margin:10px 0; font-size:12px; line-height:1.2em; }
+
+#more-block { padding:30px 40px; }
+
+#footer { background:#131313; width:100%; height:20px; margin:20px 0; }
+#footer p { margin:0; padding:2px; }
+#footer .col2 { text-align:right; float:right;  }
+
+/*   General horizontal nav
+   -------------------------- */
+
+ul#nav {
+	width:220px;
+	height:30px;
+	float:left;
+	list-style-image:none;
+	margin:0; padding:0; 
+}
+ul#nav li { display:inline; margin:0; padding:0; }
+ul#nav li a {
+	display:block;
+	float:left;
+    width:60px; 
+    height:27px; 
+    background:url(/img/nav-contact.gif) top left no-repeat;
+    text-indent:-1000em;
+}
+ul#nav li a#nav-home { background:url(/img/nav-home.gif) top left no-repeat; width:47px; }
+ul#nav li a#nav-news { background:url(/img/nav-news.gif) top left no-repeat; width:109px; }
+
+ul#nav li a:hover { text-decoration:none; }
